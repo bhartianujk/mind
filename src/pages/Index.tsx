@@ -6,7 +6,7 @@ import ClassificationResult from "@/components/ClassificationResult";
 import HeroSection from "@/components/HeroSection";
 import { useToast } from "@/hooks/use-toast";
 
-const API_URL = "http://localhost:8000/predict"; // Change to your backend API URL
+const API_URL = "https://project-mnit.onrender.com/predict"; // Change to your backend API URL
 
 interface Prediction {
   predicted_class: string;
